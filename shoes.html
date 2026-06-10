@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLACE - Shoes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+             <div class="logo">
+                 <a href="index.html">
+                     <img src="https://cdn.vectorstock.com/i/500p/11/43/fashion-model-silhouette-of-beautiful-woman-vector-13801143.jpg" alt="SOLACE Woman Silhouette Logo" style="height: 40px; vertical-align: middle; margin-right: 10px;">
+                 </a>
+                 <a href="index.html">
+                      <img src="https://www.solaceclothing.com/cdn/shop/files/Untitled_81.png?v=1723537271&width=600" alt="SOLACE Wordmark Logo" style="height: 40px; vertical-align: middle;">
+                 </a>
+             </div>
+             <h1 class="tagline">Timeless grace, a warm embrace</h1>
+         </header>
+
+         <nav class="navbar">
+             <div class="nav-links">
+                <a href="index.html">HOME</a>
+                <a href="deals.html">DEALS</a>
+                <a href="sales.html">SALES</a>
+                <a href="packages.html">PACKAGES</a>
+                <a href="coupons.html">COUPONS</a>
+                <a href="shirts.html">SHIRTS</a>
+                <a href="dress.html">DRESS</a>
+                <a href="pants.html">PANTS</a>
+                <a href="shoes.html">SHOES</a>
+                <a href="accessories.html">ACCESSORIES</a>
+                <a href="aboutus.html">ABOUT US</a>
+             </div>
+             <div class="search-bar">
+                 <input type="text" placeholder="Search...">
+                 <i class="fas fa-search search-icon"></i>
+             </div>
+              <div class = "icons-container">
+                  <a href="packages.html"><i class="fas fa-shopping-cart"></i></a>
+                  <i class="fas fa-box"></i>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-comment"></i>
+              </div>
+         </nav>
+    </div>
+
+    <main>
+        <div class="container category-page-content">
+            <h2>Shoes</h2>
+            <div class="product-grid-category">
+
+                <div class="product-item-category"
+                     data-id="shoe001"
+                     data-name="Block Heel Sandals"
+                     data-price="45.00"
+                     data-image="https://down-ph.img.susercontent.com/file/ph-11134207-7qul0-lgq19zr6dcbkc1">
+                    <img src="https://down-ph.img.susercontent.com/file/ph-11134207-7qul0-lgq19zr6dcbkc1" alt="Block Heel Sandals">
+                    <p class="product-price">$45.00</p>
+                    <button class="button-base add-to-cart-button" onclick="addToCartFromColumn(this)">ADD tO CART</button>
+                    <span class="add-to-cart-message"></span>
+                </div>
+
+                <div class="product-item-category"
+                     data-id="shoe002"
+                     data-name="Camper Bcn Shoes"
+                     data-price="60.00"
+                     data-image="https://cdna.lystit.com/photos/camper/be5d9f9a/camper-Brown-Bcn.jpeg">
+                    <img src="https://cdna.lystit.com/photos/camper/be5d9f9a/camper-Brown-Bcn.jpeg" alt="Camper Bcn Shoes">
+                    <p class="product-price">$60.00</p>
+                    <button class="button-base add-to-cart-button" onclick="addToCartFromColumn(this)">ADD tO CART</button>
+                    <span class="add-to-cart-message"></span>
+                </div>
+
+                <div class="product-item-category"
+                     data-id="shoe003"
+                     data-name="Platform Sandals"
+                     data-price="55.00"
+                     data-image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMHK_qhhB6UB2oWEIRwP63-c1PqobwxrESUUx1tTqkZ03uCfHEJtL-bBeONGxHF-8gMkI&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMHK_qhhB6UB2oWEIRwP63-c1PqobwxrESUUx1tTqkZ03uCfHEJtL-bBeONGxHF-8gMkI&usqp=CAU" alt="Platform Sandals">
+                    <p class="product-price">$55.00</p>
+                    <button class="button-base add-to-cart-button" onclick="addToCartFromColumn(this)">ADD tO CART</button>
+                    <span class="add-to-cart-message"></span>
+                </div>
+
+                 <div class="product-item-category"
+                     data-id="shoe004"
+                     data-name="Pelanir Slip-ons"
+                     data-price="75.00"
+                     data-image="https://pelanir.com/cdn/shop/files/DSC09781_6aa130ea-bb6f-4fc4-bb86-e4ba0b9ed484.jpg?v=1729089294">
+                    <img src="https://pelanir.com/cdn/shop/files/DSC09781_6aa130ea-bb6f-4fc4-bb86-e4ba0b9ed484.jpg?v=1729089294" alt="Pelanir Slip-ons">
+                    <p class="product-price">$75.00</p>
+                    <button class="button-base add-to-cart-button" onclick="addToCartFromColumn(this)">ADD tO CART</button>
+                    <span class="add-to-cart-message"></span>
+                </div>
+
+                 <div class="product-item-category"
+                     data-id="shoe005"
+                     data-name="Amazon Lace-up Boots"
+                     data-price="40.00"
+                     data-image="https://m.media-amazon.com/images/I/71VrlBQuE-L._AC_SR768,1024_.jpg">
+                    <img src="https://m.media-amazon.com/images/I/71VrlBQuE-L._AC_SR768,1024_.jpg" alt="Amazon Lace-up Boots">
+                    <p class="product-price">$40.00</p>
+                    <button class="button-base add-to-cart-button" onclick="addToCartFromColumn(this)">ADD tO CART</button>
+                    <span class="add-to-cart-message"></span>
+                </div>
+
+                <div class="product-item-category"
+                     data-id="shoe006"
+                     data-name="Dark Brown Loafers"   
+                     data-price="62.00"                
+                     data-image="https://www.cardams.net/cdn/shop/products/ECLARSS00074Dk.Brwn3_1000x.jpg?v=1653984185">
+                    <img src="https://www.cardams.net/cdn/shop/products/ECLARSS00074Dk.Brwn3_1000x.jpg?v=1653984185" alt="Dark Brown Loafers"> 
+                    <p class="product-price">$62.00</p> 
+                    <button class="button-base add-to-cart-button" onclick="addToCartFromColumn(this)">ADD tO CART</button>
+                    <span class="add-to-cart-message"></span>
+                </div>
+                </div> </div> </main>
+
+    <footer class="footer container">
+          <div class = "payment-icons">
+            <img src="https://i.pinimg.com/736x/a7/30/49/a730493a9c55cfd695ff68aff92f54a5.jpg" alt = "Maya">
+            <img src="https://www.citypng.com/public/uploads/preview/png-mastercard-credit-card-payment-icon-701751695036643n3aswm1nkx.png" alt = "Master Card">
+            <img src="https://i.pinimg.com/736x/d5/70/c8/d570c81a5c1eca5cdd95067fbb0a57e5.jpg" alt = "BPI">
+            <img src="https://w7.pngwing.com/pngs/860/297/png-transparent-gcash-logo-thumbnail.png" alt = "GCash">
+          </div>
+          <div>
+              <a href="#">Conditions of Use</a>
+              <a href="#">Privacy Notice</a>
+              <a href="#">Cookie Policy</a>
+          </div>
+          <div class = "copyright">
+              <span>&copy; 2025, Solace</span>
+          </div>
+          <div>
+              <span>Philippines</span>
+              <span class="footer-icons">
+                   <a href="https://www.facebook.com/chiarlamae.moreno.16"><i class="fab fa-facebook-f"></i></a>
+                   <a href="https://www.instagram.com/chrl_mrn/"><i class="fab fa-instagram"></i></a>
+              </span>
+          </div>
+      </footer>
+
+    <script src="cart.js"></script> </body>
+</html>
